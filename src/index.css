@@ -32,7 +32,6 @@ PAGE SETUP
 
 *, *::before, *::after {
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
 
 body {
@@ -44,6 +43,10 @@ p {
 	color: var(--grayish-blue);
 	font-size: .8rem;
 	margin: 0;
+}
+
+.app {
+	overflow-x: hidden;
 }
 
 .main {
@@ -160,7 +163,6 @@ PRICING
 
 .slider-container {
 	margin-bottom: 2.6em;
-	overflow: visible;
 }
 
 .slider {
