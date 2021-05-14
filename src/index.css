@@ -32,7 +32,6 @@ PAGE SETUP
 
 *, *::before, *::after {
 	box-sizing: border-box;
-	overflow: hidden;
 }
 
 body {
@@ -51,7 +50,6 @@ p {
 	top: 3em;
 	left: 0;
 	right: 0;
-	overflow: visible;
 }
 
 .card {
@@ -162,7 +160,6 @@ PRICING
 
 .slider-container {
 	margin-bottom: 2.6em;
-	overflow: visible;
 }
 
 .slider {
@@ -176,7 +173,6 @@ PRICING
 	border-radius: 10px;
 	height: 8px;
 	margin: 0 auto;
-	overflow: visible;
 	width: 100%;
 }
 
