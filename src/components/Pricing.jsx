@@ -12,39 +12,39 @@ class Pricing extends React.Component {
 		};
 	}
 
-	handleMouseMove(e) {
+	handleChange(e) {
 		var value = e.target.value;
 
 		if (value >= 1 && value < 13) {
-			e.target.value = 1
+			// e.target.value = 1
 			this.setState({ 
 				price: 8.00,
 				views: "10K" 
 			})
 		} 
 		else if (value >= 13 && value < 37) {
-			e.target.value = 25
+			// e.target.value = 25
 			this.setState({ 
 				price: 12.00,
 				views: "50K"
 			})
 		} 
 		else if (value >= 37 && value < 62) {
-			e.target.value = 50
+			// e.target.value = 50
 			this.setState({ 
 				price: 16.00,
 				views: "100K"
 			})
 		} 
 		else if (value >= 62 && value <= 87) {
-			e.target.value = 75
+			// e.target.value = 75
 			this.setState({ 
 				price: 24.00,
 				views: "500K"
 			})
 		} 
 		else if (value >= 87) {
-			e.target.value = 100
+			// e.target.value = 100
 			this.setState({
 				price: 36.00,
 				views: "1M"
@@ -93,7 +93,7 @@ class Pricing extends React.Component {
 							max="100"
 							defaultValue="50"
 							className="slider"		
-							onMouseMove={(e) => this.handleMouseMove(e) } 
+							onChange={(e) => this.handleChange(e) } 
 							/>
 						</div>
 
