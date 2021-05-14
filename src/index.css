@@ -32,11 +32,12 @@ PAGE SETUP
 
 *, *::before, *::after {
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 body {
 	margin: 0;
-	background-color: var(--very-pale-blue)
+	background-color: var(--very-pale-blue);
 }
 
 p {
@@ -60,7 +61,6 @@ p {
 .background-image {
 	position: relative;
 	top: -3.2em;
-	width: 100vw;
 }
 
 @media (min-width: 900px) {
@@ -70,7 +70,6 @@ p {
 
 	.background-image {
 		top: 0;
-		width: 100%;
 	}
 }
 
@@ -161,6 +160,7 @@ PRICING
 
 .slider-container {
 	margin-bottom: 2.6em;
+	overflow: visible;
 }
 
 .slider {
